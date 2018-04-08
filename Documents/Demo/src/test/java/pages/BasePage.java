@@ -7,12 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import scenarios.AndroidSetup;
+import scenarios.Setup;
 
 import java.util.HashMap;
 
 
-public class BasePage extends Setup{
+public class BasePage extends Setup {
 
 
     protected WebDriver driver;
