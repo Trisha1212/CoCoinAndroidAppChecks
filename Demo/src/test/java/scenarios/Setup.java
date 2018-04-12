@@ -1,5 +1,6 @@
 package scenarios;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -8,7 +9,7 @@ import java.net.URL;
 
 
 public class Setup {
-    protected AndroidDriver androidDriver;
+    protected AppiumDriver androidDriver;
 
 
     protected void prepareAndroidForAppium() throws MalformedURLException {
