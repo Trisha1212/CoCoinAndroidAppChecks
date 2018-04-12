@@ -3,8 +3,7 @@ AppiumDemo
 ## Testing Mobile App using Appium
 
 ## Objective
-
-Intent of this project is to illustrate how **Appium** can be used to test mobile application **Android** 
+ Intent of this project is to illustrate how **Appium** can be used to test mobile application **Android** 
 
 ## Tech stacks
 
@@ -14,12 +13,13 @@ Intent of this project is to illustrate how **Appium** can be used to test mobil
 ## What app can perfrom
 1. Launch App
 2. Verify splash screen
+3. Swipe
 
 
 ## 2.0 Setup
 ### Dev Setup 
 * Download Android Studio(https://developer.android.com/studio/index.html)<br />
-*How to set environment variable https://stackoverflow.com/questions/28296237/set-android-home-environment-variable-in-mac/28296325
+* How to set environment variable https://stackoverflow.com/questions/28296237/set-android-home-environment-variable-in-mac/28296325
 - /Users/trishachetani/Library/Android/sdk
 - Android Setup via command line 
 ``` 
@@ -87,8 +87,9 @@ open WebDriverAgent.xcodeproj
 * How to run the app on emulator - Run the AppiumTest.java classFile
 * How to run your app on real device - Run the AppiumTest.java classfile
 
-####Video of Running Test
-![Imgur](https://i.imgur.com/kXT9fCS.gifv)
+#### Video of Running Test
+
+https://www.dropbox.com/s/0drwssyk6umkgde/WhatsApp%20Video%202018-04-12%20at%205.46.22%20PM.mp4?dl=0
 
 ### Find Locators
 - [http://toolsqa.com/mobile-automation/appium/how-to-inspect-and-automate-webview-in-hybrid-app/]
